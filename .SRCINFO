@@ -1,0 +1,16 @@
+pkgbase = 7ji-keyring
+	pkgdesc = 7Ji's arch repo PGP keyring
+	pkgver = 20231105
+	pkgrel = 2
+	url = https://github.com/7Ji/archrepo
+	install = 7ji-keyring.install
+	arch = any
+	license = GPL3
+	source = 7Ji.gpg
+	source = 7Ji-revoked
+	source = 7Ji-trusted
+	sha256sums = 75827c7c280d5cdc4c333a187afddfb547e8486b7da0f74bbca3211545acf47d
+	sha256sums = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+	sha256sums = 771a132e7ca74f96047f79bbb4568ce80e6fbf7d82df71207e423bd4f9701d92
+
+pkgname = 7ji-keyring
